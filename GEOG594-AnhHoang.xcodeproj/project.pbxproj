@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA920EA28C12F4300CFE018 /* GEOG594_AnhHoangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA920E928C12F4300CFE018 /* GEOG594_AnhHoangApp.swift */; };
+		ECA920EC28C12F4300CFE018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA920EB28C12F4300CFE018 /* ContentView.swift */; };
+		ECA920EE28C12F4500CFE018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA920ED28C12F4500CFE018 /* Assets.xcassets */; };
+		ECA920F128C12F4500CFE018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA920F028C12F4500CFE018 /* Preview Assets.xcassets */; };
+		ECA920FC28C12F4600CFE018 /* GEOG594_AnhHoangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA920FB28C12F4600CFE018 /* GEOG594_AnhHoangTests.swift */; };
+		ECA9210628C12F4600CFE018 /* GEOG594_AnhHoangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9210528C12F4600CFE018 /* GEOG594_AnhHoangUITests.swift */; };
+		ECA9210828C12F4600CFE018 /* GEOG594_AnhHoangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9210728C12F4600CFE018 /* GEOG594_AnhHoangUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA920F828C12F4600CFE018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA920DE28C12F4300CFE018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA920E528C12F4300CFE018;
+			remoteInfo = "GEOG594-AnhHoang";
+		};
+		ECA9210228C12F4600CFE018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA920DE28C12F4300CFE018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA920E528C12F4300CFE018;
+			remoteInfo = "GEOG594-AnhHoang";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA920E628C12F4300CFE018 /* GEOG594-AnhHoang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEOG594-AnhHoang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA920E928C12F4300CFE018 /* GEOG594_AnhHoangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEOG594_AnhHoangApp.swift; sourceTree = "<group>"; };
+		ECA920EB28C12F4300CFE018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECA920ED28C12F4500CFE018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA920F028C12F4500CFE018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECA920F228C12F4500CFE018 /* GEOG594_AnhHoang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GEOG594_AnhHoang.entitlements; sourceTree = "<group>"; };
+		ECA920F728C12F4600CFE018 /* GEOG594-AnhHoangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEOG594-AnhHoangTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA920FB28C12F4600CFE018 /* GEOG594_AnhHoangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEOG594_AnhHoangTests.swift; sourceTree = "<group>"; };
+		ECA9210128C12F4600CFE018 /* GEOG594-AnhHoangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEOG594-AnhHoangUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA9210528C12F4600CFE018 /* GEOG594_AnhHoangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEOG594_AnhHoangUITests.swift; sourceTree = "<group>"; };
+		ECA9210728C12F4600CFE018 /* GEOG594_AnhHoangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEOG594_AnhHoangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA920E328C12F4300CFE018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920F428C12F4600CFE018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920FE28C12F4600CFE018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA920DD28C12F4300CFE018 = {
+			isa = PBXGroup;
+			children = (
+				ECA920E828C12F4300CFE018 /* GEOG594-AnhHoang */,
+				ECA920FA28C12F4600CFE018 /* GEOG594-AnhHoangTests */,
+				ECA9210428C12F4600CFE018 /* GEOG594-AnhHoangUITests */,
+				ECA920E728C12F4300CFE018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA920E728C12F4300CFE018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA920E628C12F4300CFE018 /* GEOG594-AnhHoang.app */,
+				ECA920F728C12F4600CFE018 /* GEOG594-AnhHoangTests.xctest */,
+				ECA9210128C12F4600CFE018 /* GEOG594-AnhHoangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA920E828C12F4300CFE018 /* GEOG594-AnhHoang */ = {
+			isa = PBXGroup;
+			children = (
+				ECA920E928C12F4300CFE018 /* GEOG594_AnhHoangApp.swift */,
+				ECA920EB28C12F4300CFE018 /* ContentView.swift */,
+				ECA920ED28C12F4500CFE018 /* Assets.xcassets */,
+				ECA920F228C12F4500CFE018 /* GEOG594_AnhHoang.entitlements */,
+				ECA920EF28C12F4500CFE018 /* Preview Content */,
+			);
+			path = "GEOG594-AnhHoang";
+			sourceTree = "<group>";
+		};
+		ECA920EF28C12F4500CFE018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECA920F028C12F4500CFE018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA920FA28C12F4600CFE018 /* GEOG594-AnhHoangTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA920FB28C12F4600CFE018 /* GEOG594_AnhHoangTests.swift */,
+			);
+			path = "GEOG594-AnhHoangTests";
+			sourceTree = "<group>";
+		};
+		ECA9210428C12F4600CFE018 /* GEOG594-AnhHoangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9210528C12F4600CFE018 /* GEOG594_AnhHoangUITests.swift */,
+				ECA9210728C12F4600CFE018 /* GEOG594_AnhHoangUITestsLaunchTests.swift */,
+			);
+			path = "GEOG594-AnhHoangUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA920E528C12F4300CFE018 /* GEOG594-AnhHoang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9210B28C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoang" */;
+			buildPhases = (
+				ECA920E228C12F4300CFE018 /* Sources */,
+				ECA920E328C12F4300CFE018 /* Frameworks */,
+				ECA920E428C12F4300CFE018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GEOG594-AnhHoang";
+			productName = "GEOG594-AnhHoang";
+			productReference = ECA920E628C12F4300CFE018 /* GEOG594-AnhHoang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA920F628C12F4600CFE018 /* GEOG594-AnhHoangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9210E28C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoangTests" */;
+			buildPhases = (
+				ECA920F328C12F4600CFE018 /* Sources */,
+				ECA920F428C12F4600CFE018 /* Frameworks */,
+				ECA920F528C12F4600CFE018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA920F928C12F4600CFE018 /* PBXTargetDependency */,
+			);
+			name = "GEOG594-AnhHoangTests";
+			productName = "GEOG594-AnhHoangTests";
+			productReference = ECA920F728C12F4600CFE018 /* GEOG594-AnhHoangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA9210028C12F4600CFE018 /* GEOG594-AnhHoangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9211128C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoangUITests" */;
+			buildPhases = (
+				ECA920FD28C12F4600CFE018 /* Sources */,
+				ECA920FE28C12F4600CFE018 /* Frameworks */,
+				ECA920FF28C12F4600CFE018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA9210328C12F4600CFE018 /* PBXTargetDependency */,
+			);
+			name = "GEOG594-AnhHoangUITests";
+			productName = "GEOG594-AnhHoangUITests";
+			productReference = ECA9210128C12F4600CFE018 /* GEOG594-AnhHoangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA920DE28C12F4300CFE018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ECA920E528C12F4300CFE018 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					ECA920F628C12F4600CFE018 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECA920E528C12F4300CFE018;
+					};
+					ECA9210028C12F4600CFE018 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECA920E528C12F4300CFE018;
+					};
+				};
+			};
+			buildConfigurationList = ECA920E128C12F4300CFE018 /* Build configuration list for PBXProject "GEOG594-AnhHoang" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA920DD28C12F4300CFE018;
+			productRefGroup = ECA920E728C12F4300CFE018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA920E528C12F4300CFE018 /* GEOG594-AnhHoang */,
+				ECA920F628C12F4600CFE018 /* GEOG594-AnhHoangTests */,
+				ECA9210028C12F4600CFE018 /* GEOG594-AnhHoangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA920E428C12F4300CFE018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA920F128C12F4500CFE018 /* Preview Assets.xcassets in Resources */,
+				ECA920EE28C12F4500CFE018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920F528C12F4600CFE018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920FF28C12F4600CFE018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA920E228C12F4300CFE018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA920EC28C12F4300CFE018 /* ContentView.swift in Sources */,
+				ECA920EA28C12F4300CFE018 /* GEOG594_AnhHoangApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920F328C12F4600CFE018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA920FC28C12F4600CFE018 /* GEOG594_AnhHoangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA920FD28C12F4600CFE018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9210628C12F4600CFE018 /* GEOG594_AnhHoangUITests.swift in Sources */,
+				ECA9210828C12F4600CFE018 /* GEOG594_AnhHoangUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA920F928C12F4600CFE018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA920E528C12F4300CFE018 /* GEOG594-AnhHoang */;
+			targetProxy = ECA920F828C12F4600CFE018 /* PBXContainerItemProxy */;
+		};
+		ECA9210328C12F4600CFE018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA920E528C12F4300CFE018 /* GEOG594-AnhHoang */;
+			targetProxy = ECA9210228C12F4600CFE018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECA9210928C12F4600CFE018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA9210A28C12F4600CFE018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECA9210C28C12F4600CFE018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GEOG594-AnhHoang/GEOG594_AnhHoang.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GEOG594-AnhHoang/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECA9210D28C12F4600CFE018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GEOG594-AnhHoang/GEOG594_AnhHoang.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GEOG594-AnhHoang/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ECA9210F28C12F4600CFE018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEOG594-AnhHoang.app/Contents/MacOS/GEOG594-AnhHoang";
+			};
+			name = Debug;
+		};
+		ECA9211028C12F4600CFE018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEOG594-AnhHoang.app/Contents/MacOS/GEOG594-AnhHoang";
+			};
+			name = Release;
+		};
+		ECA9211228C12F4600CFE018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GEOG594-AnhHoang";
+			};
+			name = Debug;
+		};
+		ECA9211328C12F4600CFE018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GEOG594-AnhHoang.GEOG594-AnhHoangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GEOG594-AnhHoang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA920E128C12F4300CFE018 /* Build configuration list for PBXProject "GEOG594-AnhHoang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9210928C12F4600CFE018 /* Debug */,
+				ECA9210A28C12F4600CFE018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9210B28C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9210C28C12F4600CFE018 /* Debug */,
+				ECA9210D28C12F4600CFE018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9210E28C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9210F28C12F4600CFE018 /* Debug */,
+				ECA9211028C12F4600CFE018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9211128C12F4600CFE018 /* Build configuration list for PBXNativeTarget "GEOG594-AnhHoangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA9211228C12F4600CFE018 /* Debug */,
+				ECA9211328C12F4600CFE018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA920DE28C12F4300CFE018 /* Project object */;
+}
